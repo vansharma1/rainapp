@@ -1,0 +1,42 @@
+.location-search-bar {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1101;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.13);
+  padding: 8px 12px;
+}
+
+.location-search-bar input {
+  width: 250px;
+  padding: 6px 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.suggestion-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  width: 250px;
+  z-index: 1102;
+}
+
+.suggestion-list li {
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+.suggestion-list li:hover {
+  background: #f0f6ff;
+}
